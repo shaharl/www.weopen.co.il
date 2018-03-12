@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body id="page-top">
+
+    {% include nav.html %}
+    {% include header.html %}
+    <div class="page-scroll"><a class="page-scroll fa fa-2x fa-chevron-up wow bounceInUp" style="font-weight: bold; text-decoration: none;" href="#page-top" id="scroll-top"></a></div>
+    <!-- <div class="page-scroll"><a class="page-scroll fa fa-2x fa-chevron-up" style="font-weight: bold; text-decoration: none;" href="#page-top" id="scroll-top"></a></div> -->
+    {% include about.html %}
+    {% include services.html %}
+    {% include clients.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include scripts.html %}
+    
+  </body>
+
+</html>

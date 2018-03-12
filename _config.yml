@@ -1,0 +1,16 @@
+# Site settings
+title: WeOpen
+email: info@weopen.co.il
+description: >- 
+  The Journey to DevOps
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+copyright: 'Copyright &copy; WeOpen | All Rights Reserved'
+email: 'info@weopen.co.il'
+linkedin: 'https://www.linkedin.com/company/5044358/'
+facebook: 'https://www.facebook.com/dumpsterApp/'
